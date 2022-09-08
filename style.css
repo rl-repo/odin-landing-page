@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+header {
+    background: #1f2937;
+    width: 100%;
+}
+
+.banner {
+    font-size: 24px;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    padding: 5% 0;
+    width: 60%;
+}
+
+.left-text {
+    color: #E5E7EB;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.img {
+    color: white;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.header button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 36px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* --- Body --- */
+
+.information {
+    text-align: center;
+}
+
+.img-ul li {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.img-container .img {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882F6;
+    background-color: white;
+}
+
+/* --- Quote --- */
+    
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 2% 30%;
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 1;
+}
+
+.quote-source {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
+/* --- CTA --- */
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    width: 60%;
+    border-radius: 8px;
+    padding: 1% 5%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action #sign-up-text {
+    font-weight: 1;
+}
+
+.call-text p {
+    font-weight: 800;
+}
+
+.call-to-action button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: #3882F6;
+
+    height: 80%;
+    padding: 10px 30px;
+}
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
